@@ -31,3 +31,4 @@ C:\Users\pacob\OneDrive\Desktop\PSP\PSP_API\obj\Debug\net9.0\refint\PSP_API.dll
 C:\Users\pacob\OneDrive\Desktop\PSP\PSP_API\obj\Debug\net9.0\PSP_API.pdb
 C:\Users\pacob\OneDrive\Desktop\PSP\PSP_API\obj\Debug\net9.0\PSP_API.genruntimeconfig.cache
 C:\Users\pacob\OneDrive\Desktop\PSP\PSP_API\obj\Debug\net9.0\ref\PSP_API.dll
+C:\Users\pacob\OneDrive\Desktop\PSP\PSP_API\obj\Debug\net9.0\PSP_API.sourcelink.json

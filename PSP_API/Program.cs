@@ -7,7 +7,7 @@ builder.Services.AddOpenApi();
 var scoresBD = new[]
 {
     new Score("Fran",200)
-};
+}.ToList();
 
 var app = builder.Build();
 
@@ -19,24 +19,18 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
-var scoresBD = new[]
-{
-    new Score("Fran",200)
-};
-
-
 app.MapGet("/players", () =>
 {
-    var scores =  scoresBD
-        .ToArray();
+    var scores =  scoresBD;
     return scores;
 })
 .WithName("GetPlayers");
 
 app.MapPost("/player-points", (Score score) => {
     
-    scoresBD.Append(score);
+    scoresBD.Add(score);
+
+    Console.WriteLine(scoresBD);
     return score;
 }).WithName("PostPoints");
 
