@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PSP_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19365a4db229814fdd00842f237d2cd30e8ffb35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed5d176c55e4db1c20a16079b43d8219c6696778")]
 [assembly: System.Reflection.AssemblyProductAttribute("PSP_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PSP_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
