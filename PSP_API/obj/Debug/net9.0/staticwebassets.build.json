@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Rw/4a1ZjHxT2g/xnwXaHT/rijaFsvYPPq7GncnKkhWE=",
+  "Source": "PSP_API",
+  "BasePath": "_content/PSP_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
