@@ -1,7 +1,0 @@
-@PSP_API_HostAddress = http://localhost:8080
-
-GET {{PSP_API_HostAddress}}/players/
-Accept: application/json
-
-POST {{PSP_API_HostAddress}}/player-points/
-###
