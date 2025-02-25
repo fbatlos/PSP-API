@@ -1,22 +1,22 @@
-# Etapa 1: Construcción
-FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+# Utiliza una imagen base de .NET SDK para compilar y publicar la aplicación
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 WORKDIR /app
 
-# Copiar archivos de proyecto y restaurar dependencias
-COPY GameScoresAPI.csproj ./
+# Copia los archivos del proyecto y restaura las dependencias
+COPY *.csproj ./
 RUN dotnet restore
 
-# Copiar el resto de los archivos y construir la aplicación
+# Copia el resto de los archivos y publica la aplicación
 COPY . ./
 RUN dotnet publish -c Release -o out
 
-# Etapa 2: Ejecución
-FROM mcr.microsoft.com/dotnet/aspnet:9.0
+# Utiliza una imagen base de .NET runtime para ejecutar la aplicación
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
-COPY --from=build /app/out .
+COPY --from=build-env /app/out .
 
-# Exponer el puerto en el que la aplicación escuchará
+# Expone el puerto en el que la aplicación escuchará
 EXPOSE 80
 
-# Comando para ejecutar la aplicación
+# Define el punto de entrada para ejecutar la aplicación
 ENTRYPOINT ["dotnet", "GameScoresAPI.dll"]
