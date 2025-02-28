@@ -8,7 +8,7 @@ RUN dotnet restore
 
 # Copia el resto de los archivos y publica la aplicación
 COPY . ./
-RUN dotnet publish -c Release -o out
+RUN dotnet publish GameScoresAPI.csproj -c Release -o out --no-restore
 
 # Utiliza una imagen base de .NET runtime para ejecutar la aplicación
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
