@@ -11,12 +11,11 @@ COPY . ./
 RUN dotnet publish -c Release -o out
 
 # Utiliza una imagen base de .NET runtime para ejecutar la aplicación
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# Usa la imagen base de .NET 9 para ejecutar la aplicación (si tu proyecto requiere .NET 9)
+FROM mcr.microsoft.com/dotnet/aspnet:9.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 
-# Expone el puerto en el que la aplicación escuchará
 EXPOSE 80
-
-# Define el punto de entrada para ejecutar la aplicación
 ENTRYPOINT ["dotnet", "GameScoresAPI.dll"]
+
