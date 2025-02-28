@@ -1,4 +1,5 @@
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\GameScoresAPI.exe
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\out\web.config
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\web.config
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\web.config
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\appsettings.Development.json
@@ -13,6 +14,11 @@ C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\appsetti
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\GameScoresAPI.deps.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\GameScoresAPI.runtimeconfig.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\GameScoresAPI.staticwebassets.endpoints.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\out\appsettings.Development.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\out\appsettings.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\out\GameScoresAPI.deps.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\out\GameScoresAPI.runtimeconfig.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\out\out\out\GameScoresAPI.staticwebassets.endpoints.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\GameScoresAPI.dll
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\GameScoresAPI.deps.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\out\GameScoresAPI.runtimeconfig.json
