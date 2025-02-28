@@ -1,21 +1,22 @@
-# Utiliza una imagen base de .NET SDK para compilar y publicar la aplicación
+# Usa una imagen base de .NET SDK para construir la aplicación
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
-# Copia los archivos del proyecto y restaura las dependencias
-COPY *.csproj ./
-RUN dotnet restore
+# Copiar archivo .csproj y restaurar dependencias
+COPY GameScoresAPI.csproj ./
+RUN dotnet restore GameScoresAPI.csproj
 
-# Copia el resto de los archivos y publica la aplicación
+# Copiar el resto de los archivos y compilar la aplicación
 COPY . ./
-RUN dotnet publish -c Release -o out
+RUN dotnet publish GameScoresAPI.csproj -c Release -o out --no-restore
 
-# Utiliza una imagen base de .NET runtime para ejecutar la aplicación
-# Usa la imagen base de .NET 9 para ejecutar la aplicación (si tu proyecto requiere .NET 9)
-FROM mcr.microsoft.com/dotnet/aspnet:9.0
+# Usar la imagen base de .NET runtime 8.0 para ejecutar la aplicación
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 
+# Exponer el puerto en el que se ejecutará la aplicación
 EXPOSE 80
-ENTRYPOINT ["dotnet", "GameScoresAPI.dll"]
 
+# Configurar el punto de entrada de la aplicación
+ENTRYPOINT ["dotnet", "GameScoresAPI.dll"]

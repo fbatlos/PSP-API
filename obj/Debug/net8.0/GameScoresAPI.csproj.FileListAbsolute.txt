@@ -1,3 +1,5 @@
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\out\web.config
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\web.config
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\web.config
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\appsettings.json
@@ -6,6 +8,16 @@ C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\GameScoresAPI.deps.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\GameScoresAPI.runtimeconfig.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\GameScoresAPI.staticwebassets.endpoints.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\appsettings.Development.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\appsettings.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\GameScoresAPI.deps.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\GameScoresAPI.runtimeconfig.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\GameScoresAPI.staticwebassets.endpoints.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\out\appsettings.Development.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\out\appsettings.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\out\GameScoresAPI.deps.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\out\GameScoresAPI.runtimeconfig.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\out\out\out\GameScoresAPI.staticwebassets.endpoints.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\GameScoresAPI.staticwebassets.endpoints.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\GameScoresAPI.exe
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Debug\net8.0\GameScoresAPI.deps.json
