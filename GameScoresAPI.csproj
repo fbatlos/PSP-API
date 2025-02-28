@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Models/Score.cs" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" /> <!-- Cambiar a una versión compatible con .NET 8 -->
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.2" />

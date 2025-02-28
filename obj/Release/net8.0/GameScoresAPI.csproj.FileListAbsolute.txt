@@ -174,3 +174,9 @@ C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\o
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\out\out\GameScoresAPI.deps.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\out\out\GameScoresAPI.runtimeconfig.json
 C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\out\out\GameScoresAPI.staticwebassets.endpoints.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\out\out\out\web.config
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\out\out\out\appsettings.Development.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\out\out\out\appsettings.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\out\out\out\GameScoresAPI.deps.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\out\out\out\GameScoresAPI.runtimeconfig.json
+C:\Users\pacob\OneDrive\Desktop\Nueva carpeta\GameScoresAPI\bin\Release\net8.0\out\out\out\GameScoresAPI.staticwebassets.endpoints.json
